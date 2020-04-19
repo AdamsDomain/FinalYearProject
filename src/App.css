@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login-body{
+  padding: 50px;
+}
+.login-btn, .login-reg-btn{
+  background-color: rgba(36, 41, 44, .9);
+  border: none;
+  width: 100%;
+  text-align: center;
+  padding: 14px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.login-input{
+  background: rgba(241, 241, 241, .7);
+  width: 100%;
+  padding: 14px;
+  border-radius: 4px;
+  border: 0;
+  color: #3E3E3E;
+}
+.login-form{
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+  width:1000px;
+  padding-left: 500px;
+    padding-top: 100px;
+}
+.login-heading{
+    text-align: center;
+}
+.navItemsWrapper{
+  display: flex;
+  justify-content: space-between !important;
+}
+.homeContainer{
+  height:100vh;
+}
+.homeRow{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height:75vh;
+}
+.homeJumbotron{
+  text-align: center;
+}
+.coursesContainer{
+  padding-top: 10vh;
+  height:75vh;
+  display:flex;
+  justify-content: center;
+}
+.carousel {
+  width:900px;
+  height:450px;
+}
+.binary-course-tabs-container {
+  padding: 3vh;
+  border-style: solid;
+  margin-left: 20vh;
+  margin-top: 7vh;
+  margin-right: 20vh;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #aaaaaa;
+  margin-bottom:3vh;
+}
+.power{
+  position: relative;
+  bottom: 1ex;
+  font-size: 80%;
+}
+.binary-incrementor{
+  width:30vh;
+  margin-left:50vh;
+}
+.binary-incrementor-sub{
+  margin-left:6vh;
+}
+.binary-form{
+  text-align:right;
+}
+.binary-end-wrapper{
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-end;
+}
+.binary-next-button{
+  height:40px;
+  width:10vh;
+}
+.binary-arith-addition-wrapper, .binary-arith-subtraction-wrapper{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.binary-add-calc-1-btn, .binary-add-calc-0-btn, .binary-sub-calc-1-btn, .binary-sub-calc-0-btn{
+  margin-right:2vh;
+}
+.binary-add-clear-btn, .binary-sub-clear-btn{
+  margin-left:-6vh;
+}
+.binary-add-display, .binary-sub-display{
+  text-align: right;
+}
+.leftDivision{
+  border-right: 1px black solid; border-radius: 0px 0px 10px 0px;
+}
+.rightDivision{
+  border-top: 1px black solid;
+}
+.binary-arith-next-button{
+  margin-left:94%;
+  height:40px;
+  width:10vh;
+}
